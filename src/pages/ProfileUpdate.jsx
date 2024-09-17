@@ -87,9 +87,9 @@ export default function ProfileUpdate() {
 
   return (
     // Main container with background image, centered content, and profile form
-    <div className="profile min-h-screen bg-darkteal bg-no-repeat bg-cover flex items-center justify-center">
+    <div className="profile min-h-screen bg-darkteal bg-no-repeat bg-cover flex   items-center justify-center">
       {/* Profile form and image container */}
-      <div className="profile-container bg-white flex items-center justify-between min-w-[700px] rounded-[10px]">
+      <div className="profile-container bg-white flex flex-col md:flex-row items-center justify-between min-w-[700px] rounded-[10px]">
         {/* Profile update form */}
         <form className="flex flex-col gap-5 p-10" onSubmit={profileUpdate}>
           <h3 className="font-medium text-lg">Profile Details</h3>
