@@ -231,7 +231,7 @@ export default function ChatBox() {
       <div className="chat-input flex items-center gap-3 px-[15px] py-[10px] bg-white absolute bottom-0 left-0 right-0">
         {/* Input for typing message */}
         <input
-          className="flex-1 outline-none"
+          className="flex-1 outline-none w-full"
           type="text"
           placeholder="Send a message"
           onChange={(e) => {
@@ -255,6 +255,7 @@ export default function ChatBox() {
         </label>
 
         {/* Send message button */}
+
         <BsSendFill
           onClick={sendMessage}
           className="text-2xl cursor-pointer text-orange"
