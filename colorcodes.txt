@@ -1,0 +1,4 @@
+Dark Teal 497174  rgb(73, 113, 116)
+Left Right White -> eff5f5 rgb(239, 245, 245)
+Aqua (inside icons) -> d6e4e5 rgb(214, 228, 229)
+Ice blue ->Borders -> eeeff2 rgb(238, 239, 242)

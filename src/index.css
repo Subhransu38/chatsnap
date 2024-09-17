@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+.input{
+  padding: 8px 10px;
+  border: 1px solid #c9c9c9;
+  border-radius: 4px;
+  outline-color: #fd5108;
+}
+
+.sender-msg{
+  display:flex;
+  align-items:end;
+  justify-content:end;
+  gap:5px; 
+  padding:0 15px;
+}
+
+.s-msg{
+  color: white;
+  background: #fd5108;
+  padding: 8px;
+  max-width: 200px;
+  font-size: 11px;
+  font-weight: 300;
+  border-radius: 8px 8px 0px 8px;
+  margin-bottom: 30px;
+}
+
+.receiver-msg{
+  display:flex; 
+  flex-direction:row-reverse;
+  align-items:end;
+  justify-content:start;
+  gap:8px;
+  padding:0 16px;
+}
+
+.r-msg{
+  color: white;
+  background: #fd5108;
+  padding: 8px;
+  max-width: 200px;
+  font-size: 11px;
+  font-weight: 300;
+  border-radius: 8px 8px 8px 0px;
+  margin-bottom: 30px;
+}
+
+.border img{
+  border: 3px solid #07fff3;
+}
+
+.border div span{
+  color:#07fff3
+}
+
+.logout-btn{
+  position: absolute;
+  bottom: 20px;
+  left:50%;
+  transform: translateX(-50%);
+  background-color: #fd5108;
+  color: white;
+  font-size: 12px;
+  font-weight: 300;
+  padding: 10px 65px;
+  border-radius: 20px;
+}
+
